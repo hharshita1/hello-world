@@ -1,0 +1,154 @@
+/*Hex Codes:
+Blue: #63b3ed
+Grey header text: #8594ad
+Orange: #dd6b20
+Grey column text: #68778d
+Grey background: #edf2f7
+Header is 960px wide and has 40px of spacing underneath it.
+The three columns are each 300px wide with 30px of space between them.
+The button has a hover state that gives it a white background, grey text, and an orange border.
+Text is Arial.
+The title is 125px.
+The header text and the column titles are 32px.
+The column text is 18px.
+The footer text is 16px.*/
+
+/*To do: pad out containers, space out li's, assign colors to the hover, visited, selected and the other state.*/
+
+body {
+  background-color: #edf2f7;
+  font-family: arial;
+}
+
+main,
+.card,
+footer {
+  width: 960px;
+  background-color: #fff;
+  margin: 40px auto;
+}
+
+main,
+footer {
+  padding: 20px;
+  width: 920px;
+}
+
+main {
+  text-align: center;
+}
+
+h1,
+span {
+  color: #63b3ed;
+}
+
+h1,
+h2{
+  margin: 0;
+}
+
+h1 {
+  font-size: 125px;
+}
+
+h2 {
+  color: #8594ad;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.container {
+   margin-bottom: 20px;
+}
+
+.card h2,
+ul {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  color: #68778d;
+  font-size: 18px;
+  padding: 16px 0;
+}
+
+.card ul li:last-child {
+  padding-bottom: 32px;
+}
+
+.hire-btn {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 12px;
+  background-color: #dd6b20;
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #edf2f7;
+}
+
+.card section {
+  width: 300px;
+  background-color: #fff;
+}
+
+footer p {
+  font-style: italic;
+  color: #68778d;  
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: rgb(250, 250, 250);
+  padding: 8px ;
+  border-bottom: 1px solid rgb(222, 222,222);
+  box-shadow: 0 0 8px 0 rgb(222,222,222);
+  width: 960px;
+  margin: 40px auto;
+}
+
+nav {
+  font-size: 22px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+}
+
+li {
+  margin: 0 12px;
+}
+
+a,
+a:hover {
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 4px;
+  padding: 0.25rem 1rem ;
+  background: white;
+  color: gray;
+  text-align: center;
+  user-select: none;
+}
+
+a:hover {
+  box-shadow: 0 0 5px 2px rgb(65,114,238);
+}
